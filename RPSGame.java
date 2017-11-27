@@ -1,9 +1,13 @@
-
+import java.util.Scanner;
 
 public class RPSGame  implements Game
 {
     //Determine the constructor
     
+    Scanner scan = new Scanner(System.in);
+    
+    public void RPSGame() {
+    }
     
     /**
      * 1 is p1 win
@@ -23,6 +27,7 @@ public class RPSGame  implements Game
     }
     
     public int howManyPlayers() {
+        System.out.println("How many players do you have?");
         return 0;
     }
     
